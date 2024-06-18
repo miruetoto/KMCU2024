@@ -1,9 +1,156 @@
 [
   {
-    "objectID": "KMCU.html#contents",
-    "href": "KMCU.html#contents",
-    "title": "Heavy-snow transform",
-    "section": "Contents",
-    "text": "Contents\n\nMotivation\nProposed method (quick view)\nRelated studies\nProposed method\nReal data analysis"
+    "objectID": "KMCU.html#정보전달을-위한-시각화",
+    "href": "KMCU.html#정보전달을-위한-시각화",
+    "title": "데이터시각화",
+    "section": "정보전달을 위한 시각화",
+    "text": "정보전달을 위한 시각화"
+  },
+  {
+    "objectID": "KMCU.html#탐색적-시각화",
+    "href": "KMCU.html#탐색적-시각화",
+    "title": "데이터시각화",
+    "section": "탐색적 시각화",
+    "text": "탐색적 시각화"
+  },
+  {
+    "objectID": "KMCU.html#절충",
+    "href": "KMCU.html#절충",
+    "title": "데이터시각화",
+    "section": "절충",
+    "text": "절충"
+  },
+  {
+    "objectID": "KMCU.html#리들리의-주장",
+    "href": "KMCU.html#리들리의-주장",
+    "title": "데이터시각화",
+    "section": "리들리의 주장",
+    "text": "리들리의 주장"
+  },
+  {
+    "objectID": "KMCU.html#카이로의-시각화",
+    "href": "KMCU.html#카이로의-시각화",
+    "title": "데이터시각화",
+    "section": "카이로의 시각화",
+    "text": "카이로의 시각화"
+  },
+  {
+    "objectID": "KMCU.html#상관관계의-해석",
+    "href": "KMCU.html#상관관계의-해석",
+    "title": "데이터시각화",
+    "section": "상관관계의 해석",
+    "text": "상관관계의 해석"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력",
+    "href": "KMCU.html#남미국가들의-국방력",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력-1",
+    "href": "KMCU.html#남미국가들의-국방력-1",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력-2",
+    "href": "KMCU.html#남미국가들의-국방력-2",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력-3",
+    "href": "KMCU.html#남미국가들의-국방력-3",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력-4",
+    "href": "KMCU.html#남미국가들의-국방력-4",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#남미국가들의-국방력-5",
+    "href": "KMCU.html#남미국가들의-국방력-5",
+    "title": "데이터시각화",
+    "section": "남미국가들의 국방력",
+    "text": "남미국가들의 국방력"
+  },
+  {
+    "objectID": "KMCU.html#스페인의-실업률",
+    "href": "KMCU.html#스페인의-실업률",
+    "title": "데이터시각화",
+    "section": "스페인의 실업률",
+    "text": "스페인의 실업률"
+  },
+  {
+    "objectID": "KMCU.html#스페인의-실업률-1",
+    "href": "KMCU.html#스페인의-실업률-1",
+    "title": "데이터시각화",
+    "section": "스페인의 실업률",
+    "text": "스페인의 실업률"
+  },
+  {
+    "objectID": "KMCU.html#은행들의-시가총액",
+    "href": "KMCU.html#은행들의-시가총액",
+    "title": "데이터시각화",
+    "section": "은행들의 시가총액",
+    "text": "은행들의 시가총액"
+  },
+  {
+    "objectID": "KMCU.html#은행들의-시가총액-1",
+    "href": "KMCU.html#은행들의-시가총액-1",
+    "title": "데이터시각화",
+    "section": "은행들의 시가총액",
+    "text": "은행들의 시가총액"
+  },
+  {
+    "objectID": "KMCU.html#은행들의-시가총액-2",
+    "href": "KMCU.html#은행들의-시가총액-2",
+    "title": "데이터시각화",
+    "section": "은행들의 시가총액",
+    "text": "은행들의 시가총액"
+  },
+  {
+    "objectID": "KMCU.html#분열된-유권자들",
+    "href": "KMCU.html#분열된-유권자들",
+    "title": "데이터시각화",
+    "section": "분열된 유권자들",
+    "text": "분열된 유권자들"
+  },
+  {
+    "objectID": "KMCU.html#스티븐잡스의-시각화",
+    "href": "KMCU.html#스티븐잡스의-시각화",
+    "title": "데이터시각화",
+    "section": "스티븐잡스의 시각화",
+    "text": "스티븐잡스의 시각화"
+  },
+  {
+    "objectID": "KMCU.html#스티븐잡스의-시각화-1",
+    "href": "KMCU.html#스티븐잡스의-시각화-1",
+    "title": "데이터시각화",
+    "section": "스티븐잡스의 시각화",
+    "text": "스티븐잡스의 시각화\n\n\n잘 몰라서 한것일까? 고의로 한것일까?\nref: https://paragraft.wordpress.com/2008/06/03/the-chart-junk-of-steve-jobs/"
+  },
+  {
+    "objectID": "KMCU.html#라인플랏-바플랏-산점도",
+    "href": "KMCU.html#라인플랏-바플랏-산점도",
+    "title": "데이터시각화",
+    "section": "라인플랏, 바플랏, 산점도",
+    "text": "라인플랏, 바플랏, 산점도"
+  },
+  {
+    "objectID": "KMCU.html#인식에-유리한-속성",
+    "href": "KMCU.html#인식에-유리한-속성",
+    "title": "데이터시각화",
+    "section": "인식에 유리한 속성",
+    "text": "인식에 유리한 속성"
   }
 ]

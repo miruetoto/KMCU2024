@@ -32,7 +32,7 @@
     "href": "KMCU.html#john-snow-2",
     "title": "데이터시각화",
     "section": "John Snow",
-    "text": "John Snow"
+    "text": "John Snow\n0:57, 3:14, 4:30"
   },
   {
     "objectID": "KMCU.html#gapminder",
@@ -53,7 +53,7 @@
     "href": "KMCU.html#gapminder-2",
     "title": "데이터시각화",
     "section": "Gapminder",
-    "text": "Gapminder"
+    "text": "Gapminder\n3:50"
   },
   {
     "objectID": "KMCU.html#the-rational-optimist",
@@ -200,7 +200,7 @@
     "href": "KMCU.html#high-dimensional-visualization-1",
     "title": "데이터시각화",
     "section": "High-dimensional visualization",
-    "text": "High-dimensional visualization\n\nFig1: 규빈의 시각화 (1)"
+    "text": "High-dimensional visualization\n\nFig1: 규빈의 아이디어"
   },
   {
     "objectID": "KMCU.html#high-dimensional-visualization-2",
@@ -214,14 +214,14 @@
     "href": "KMCU.html#high-dimensional-visualization-3",
     "title": "데이터시각화",
     "section": "High-dimensional visualization",
-    "text": "High-dimensional visualization\n\nFig1 – 규빈의 생각Fig2 – 미나드의 생각"
+    "text": "High-dimensional visualization\n\nFig1 – 규빈의 아이디어 (하수)Fig2 – 미나드의 아이디어"
   },
   {
     "objectID": "KMCU.html#high-dimensional-visualization-4",
     "href": "KMCU.html#high-dimensional-visualization-4",
     "title": "데이터시각화",
     "section": "High-dimensional visualization",
-    "text": "High-dimensional visualization\nVisualizing complex data beautifully like Minard:\n\nUse multiple aesthetic elements in a single image.\nWe can detect various differences in hue, brightness, and form. Utilizing these as visualization tools can be very effective."
+    "text": "High-dimensional visualization\nVisualizing complex data beautifully like Minard:\n\nUse multiple aesthetic elements in a single image.\nWe can detect various differences in hue, brightness, and form. Utilizing these as visualization tools can be very effective.\n\n저도 배웠어요. ref: https://guebin.github.io/DV2023\n\n규빈의 시각화1: https://guebin.github.io/DV2023/posts/10wk-2.html#c.-.plot.scatter\n규빈의 시각화2: https://guebin.github.io/DASH/NYCTaxi.html#%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC1-3"
   },
   {
     "objectID": "KMCU.html#gestalt-principles",
@@ -375,7 +375,7 @@
     "href": "KMCU.html#military-power-of-brazil-3",
     "title": "데이터시각화",
     "section": "Military Power of BRAZIL",
-    "text": "Military Power of BRAZIL"
+    "text": "Military Power of BRAZIL\n\n\n\n(1.936315789473684, 0.11368421052631579, 0.058711606414786635)"
   },
   {
     "objectID": "KMCU.html#military-power-of-brazil-4",
@@ -399,32 +399,32 @@
     "text": "Unemployment rate in Spain"
   },
   {
-    "objectID": "KMCU.html#unemployment-rate-in-spain-2",
-    "href": "KMCU.html#unemployment-rate-in-spain-2",
+    "objectID": "KMCU.html#biggest-banks-market-cap",
+    "href": "KMCU.html#biggest-banks-market-cap",
     "title": "데이터시각화",
-    "section": "Unemployment rate in Spain",
-    "text": "Unemployment rate in Spain"
+    "section": "Biggest Banks’ Market Cap",
+    "text": "Biggest Banks’ Market Cap"
   },
   {
-    "objectID": "KMCU.html#unemployment-rate-in-spain-3",
-    "href": "KMCU.html#unemployment-rate-in-spain-3",
+    "objectID": "KMCU.html#biggest-banks-market-cap-1",
+    "href": "KMCU.html#biggest-banks-market-cap-1",
     "title": "데이터시각화",
-    "section": "Unemployment rate in Spain",
-    "text": "Unemployment rate in Spain"
+    "section": "Biggest Banks’ Market Cap",
+    "text": "Biggest Banks’ Market Cap"
   },
   {
-    "objectID": "KMCU.html#unemployment-rate-in-spain-4",
-    "href": "KMCU.html#unemployment-rate-in-spain-4",
+    "objectID": "KMCU.html#biggest-banks-market-cap-2",
+    "href": "KMCU.html#biggest-banks-market-cap-2",
     "title": "데이터시각화",
-    "section": "Unemployment rate in Spain",
-    "text": "Unemployment rate in Spain"
+    "section": "Biggest Banks’ Market Cap",
+    "text": "Biggest Banks’ Market Cap"
   },
   {
-    "objectID": "KMCU.html#unemployment-rate-in-spain-5",
-    "href": "KMCU.html#unemployment-rate-in-spain-5",
+    "objectID": "KMCU.html#biggest-banks-market-cap-3",
+    "href": "KMCU.html#biggest-banks-market-cap-3",
     "title": "데이터시각화",
-    "section": "Unemployment rate in Spain",
-    "text": "Unemployment rate in Spain"
+    "section": "Biggest Banks’ Market Cap",
+    "text": "Biggest Banks’ Market Cap"
   },
   {
     "objectID": "KMCU.html#visualization-of-steve-jobs",
@@ -469,10 +469,10 @@
     "text": "Visualization of Steve Jobs"
   },
   {
-    "objectID": "KMCU.html#line-plot-bar-plot-scatter-plot",
-    "href": "KMCU.html#line-plot-bar-plot-scatter-plot",
+    "objectID": "KMCU.html#summary-tips",
+    "href": "KMCU.html#summary-tips",
     "title": "데이터시각화",
-    "section": "Line plot, bar plot, scatter plot",
-    "text": "Line plot, bar plot, scatter plot"
+    "section": "Summary & Tips",
+    "text": "Summary & Tips"
   }
 ]

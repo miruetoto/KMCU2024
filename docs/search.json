@@ -7,11 +7,95 @@
     "text": "Rose Diagram"
   },
   {
+    "objectID": "KMCU.html#engineer-vs.-designer",
+    "href": "KMCU.html#engineer-vs.-designer",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n\nConflict in Data Visualization: There has been a conflict between those who emphasize functionality and prefer a logical, scientific approach and those who emphasize emotional aspects and aesthetic elements, considering themselves artists.\nThere exists a middle ground between the two groups, and the boundary distinguishing the two approaches is ambiguous.\nGenerally, those who emphasize functionality and a logical approach often come from backgrounds in statistics, cartography, and computer science.\nOn the other hand, those who emphasize emotional aspects and aesthetic elements typically have backgrounds in graphic design, fine arts, and journalism."
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-1",
+    "href": "KMCU.html#engineer-vs.-designer-1",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 에드워드 터프트 (1990): 예일대학교 정치통계학 명예교수 터프트, 정보디자인과 시각화 기법분야에서 가장 영향력있는 이론가로 손꼽힘.\n- 터프티의 이론중 백미: 엄격한 미니멀리즘\n\n최소한의 잉크로 많은 정보를 전달할 수 있다면 그것이 바로 좋은 그래프이다.\n작은 지면 내에서 잉크를 최대한 적게 써서 짧은 시간 안에 많은 영감을 주어야 한다.\n\n- 데이터-잉크비: 데이터를 표현하는데 들아가는 잉크의 양 / 그래픽을 인쇄하는데 들어가는 잉크의 총량"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-2",
+    "href": "KMCU.html#engineer-vs.-designer-2",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n\n03fig12_diamondsholmes.jpg"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-3",
+    "href": "KMCU.html#engineer-vs.-designer-3",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n\n“Lurking behind chartjunk is contempt both for information and for the audience. Chartjunk promoters imagine that numbers and details are boring, dull, and tedious, requiring ornament to enliven. Cosmetic decoration, which frequently distorts the data, will never salvage an underlying lack of content. If the numbers are boring, then you’ve got the wrong numbers (…) Worse is contempt for our audience, designing as if readers were obtuse and uncaring. In fact, consumers of graphics are often more intelligent about the information at hand than those who fabricate the data decoration (…) The operating moral premise of information design should be that our readers are alert and caring; they may be busy, eager to get on with it, but they are not stupid.”"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-4",
+    "href": "KMCU.html#engineer-vs.-designer-4",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽\n\n03fig15_datainkholmes.jpg"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-5",
+    "href": "KMCU.html#engineer-vs.-designer-5",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽\n\n03fig13_datainkbars.jpg"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-6",
+    "href": "KMCU.html#engineer-vs.-designer-6",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽\n\n03fig14_datainkbars2.jpg"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-7",
+    "href": "KMCU.html#engineer-vs.-designer-7",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 터프티의 결론\n\n04fig01_gamesandtoys.jpg"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-8",
+    "href": "KMCU.html#engineer-vs.-designer-8",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer\n- 제 생각: 글쎄…"
+  },
+  {
+    "objectID": "KMCU.html#engineer-vs.-designer-9",
+    "href": "KMCU.html#engineer-vs.-designer-9",
+    "title": "데이터시각화",
+    "section": "Engineer vs. Designer",
+    "text": "Engineer vs. Designer"
+  },
+  {
     "objectID": "KMCU.html#the-map-of-napoleons-russian-campaign",
     "href": "KMCU.html#the-map-of-napoleons-russian-campaign",
     "title": "데이터시각화",
     "section": "The map of Napoleon’s Russian campaign",
-    "text": "The map of Napoleon’s Russian campaign"
+    "text": "The map of Napoleon’s Russian campaign\n\n인류역사상 가장 훌륭한 시각화"
+  },
+  {
+    "objectID": "KMCU.html#the-map-of-napoleons-russian-campaign-1",
+    "href": "KMCU.html#the-map-of-napoleons-russian-campaign-1",
+    "title": "데이터시각화",
+    "section": "The map of Napoleon’s Russian campaign",
+    "text": "The map of Napoleon’s Russian campaign\n- 터프티의 평\n\n지금까지 그려진 최고의 통계 그래픽일지도 모른다.\n여기에서는 군대의 크기, 2차원 평면상의 위치, 군대의 이동방향, 모스코바에서 퇴각하는 동안의 여러날짜, 온도 \\(\\to\\) 6차원의 변수\n백만번에 한번 이런 그림을 그릴수는 있겠지만 이러한 멋진 그래픽을 만드는 방법에 대한 원칙은 없다. \\(\\to\\) 미니멀리즘..\n\n- 왜 우수한 그래프일까?\n\n자료를 파악하는 기법은 최근까지도 산점도, 막대그래프, 라인플랏에 의존\n이러한 플랏의 단점은 고차원의 자료를 분석하기 어렵다는 것임\n미나드는 여러그림을 그리는 방법 대신에 한 그림에서 패널을 늘리는 방법을 선택함."
+  },
+  {
+    "objectID": "KMCU.html#c.-미나드처럼-그리는게-왜-어려운가",
+    "href": "KMCU.html#c.-미나드처럼-그리는게-왜-어려운가",
+    "title": "데이터시각화",
+    "section": "C. 미나드처럼 그리는게 왜 어려운가?",
+    "text": "C. 미나드처럼 그리는게 왜 어려운가?\n- 몸무게, 키, 성별, 국적\n- 미나드의 접근방법\n\n\n\n\n\n\n\n\n\nw\nh\ng\ng2\n\n\n\n\n0\n72.788217\n183.486773\nm\nkorea\n\n\n1\n66.606430\n173.599877\nm\nkorea\n\n\n2\n69.806324\n173.237903\nm\nkorea\n\n\n3\n67.449439\n173.223805\nm\nkorea\n\n\n4\n70.463183\n174.931946\nm\nkorea\n\n\n...\n...\n...\n...\n...\n\n\n1525\n78.154632\n188.324350\nm\nforeign\n\n\n1526\n74.754308\n183.017979\nf\nforeign\n\n\n1527\n91.196208\n190.100456\nm\nforeign\n\n\n1528\n87.770394\n187.987255\nm\nforeign\n\n\n1529\n88.021995\n193.456798\nm\nforeign\n\n\n\n\n1530 rows × 4 columns\n\n\n\n\n- 어려운 점:\n\n센스부족: 센스가 없어서 hue/style을 이용하여 그룹을 구분할 생각을 못함\n개념부족: 타이디데이터 (=tidy dataframe, long form dataframe) 형태로 데이터를 정리할 생각을 못함\n코딩못함: 타이디데이터로 데이터를 변형하는 코드를 모름\n\n- 해결하는 방법:\n\n센스부족: 훌륭한 시각화를 많이 보면 해결할 수 있음.\n개념부족: tidydata에 대한 개념을 배우면 해결할 수 있음.\n코딩못함: 코딩공부열심히 (시각화 코드가 중요한게 아니고, pandas를 엄청 잘해야함)"
   },
   {
     "objectID": "KMCU.html#presentations-vs-explorations",
@@ -60,91 +144,105 @@
     "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries",
     "title": "데이터시각화",
     "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
+    "text": "Example of Visualization: Military Power of South American Countries\n\n\n\n02fig01_defense_rev.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-1",
     "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-1",
     "title": "데이터시각화",
     "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
+    "text": "Example of Visualization: Military Power of South American Countries\n\n\n\n02fig02_defensebars.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-2",
     "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-2",
     "title": "데이터시각화",
     "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
+    "text": "Example of Visualization: Military Power of South American Countries\n|"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-3",
     "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-3",
     "title": "데이터시각화",
     "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
+    "text": "Example of Visualization: Military Power of South American Countries\n\n\n\n02fig04_defensebars3.jpg"
+  },
+  {
+    "objectID": "KMCU.html#military-power-of-south-american-countries",
+    "href": "KMCU.html#military-power-of-south-american-countries",
+    "title": "데이터시각화",
+    "section": "Military Power of South American Countries",
+    "text": "Military Power of South American Countries\n\n\n\n02fig05_defenseredesign.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-4",
     "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-4",
     "title": "데이터시각화",
     "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
-  },
-  {
-    "objectID": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-5",
-    "href": "KMCU.html#example-of-visualization-military-power-of-south-american-countries-5",
-    "title": "데이터시각화",
-    "section": "Example of Visualization: Military Power of South American Countries",
-    "text": "Example of Visualization: Military Power of South American Countries"
+    "text": "Example of Visualization: Military Power of South American Countries\n\n\n\nimage.png"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-unemployment-rate-in-spain",
     "href": "KMCU.html#example-of-visualization-unemployment-rate-in-spain",
     "title": "데이터시각화",
     "section": "Example of visualization: Unemployment rate in Spain",
-    "text": "Example of visualization: Unemployment rate in Spain"
+    "text": "Example of visualization: Unemployment rate in Spain\n\n\n\n02fig06_unemployment1.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-unemployment-rate-in-spain-1",
     "href": "KMCU.html#example-of-visualization-unemployment-rate-in-spain-1",
     "title": "데이터시각화",
     "section": "Example of visualization: Unemployment rate in Spain",
-    "text": "Example of visualization: Unemployment rate in Spain"
+    "text": "Example of visualization: Unemployment rate in Spain\n\n\n\n02fig07_unemployment2.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-market-capitalization-of-banks",
     "href": "KMCU.html#example-of-visualization-market-capitalization-of-banks",
     "title": "데이터시각화",
     "section": "Example of visualization: Market capitalization of banks",
-    "text": "Example of visualization: Market capitalization of banks"
+    "text": "Example of visualization: Market capitalization of banks\n\n\n\n02fig08_bubbles1.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-market-capitalization-of-banks-1",
     "href": "KMCU.html#example-of-visualization-market-capitalization-of-banks-1",
     "title": "데이터시각화",
     "section": "Example of visualization: Market capitalization of banks",
-    "text": "Example of visualization: Market capitalization of banks"
+    "text": "Example of visualization: Market capitalization of banks\n\n\n\n02fig09_bubbles2.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-market-capitalization-of-banks-2",
     "href": "KMCU.html#example-of-visualization-market-capitalization-of-banks-2",
     "title": "데이터시각화",
     "section": "Example of visualization: Market capitalization of banks",
-    "text": "Example of visualization: Market capitalization of banks"
+    "text": "Example of visualization: Market capitalization of banks\n\n\n\n02fig10_bubbles3.jpg"
   },
   {
-    "objectID": "KMCU.html#example-of-visualization-divided-voters",
-    "href": "KMCU.html#example-of-visualization-divided-voters",
+    "objectID": "KMCU.html#example-of-visualization-market-capitalization-of-banks-3",
+    "href": "KMCU.html#example-of-visualization-market-capitalization-of-banks-3",
     "title": "데이터시각화",
-    "section": "Example of visualization: Divided voters",
-    "text": "Example of visualization: Divided voters"
+    "section": "Example of visualization: Market capitalization of banks",
+    "text": "Example of visualization: Market capitalization of banks\n\n02fig11_bubbles4.jpg"
+  },
+  {
+    "objectID": "KMCU.html#example-of-visualization-market-capitalization-of-banks-4",
+    "href": "KMCU.html#example-of-visualization-market-capitalization-of-banks-4",
+    "title": "데이터시각화",
+    "section": "Example of visualization: Market capitalization of banks",
+    "text": "Example of visualization: Market capitalization of banks\n\n02fig12_bubbles5.jpg"
+  },
+  {
+    "objectID": "KMCU.html#bubble",
+    "href": "KMCU.html#bubble",
+    "title": "데이터시각화",
+    "section": "Bubble",
+    "text": "Bubble\n\n02fig13_newyork.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-visualization-of-steve-jobs",
     "href": "KMCU.html#example-of-visualization-visualization-of-steve-jobs",
     "title": "데이터시각화",
     "section": "Example of visualization: Visualization of Steve Jobs",
-    "text": "Example of visualization: Visualization of Steve Jobs"
+    "text": "Example of visualization: Visualization of Steve Jobs\n\n04fig05_3dbars.jpg"
   },
   {
     "objectID": "KMCU.html#example-of-visualization-visualization-of-steve-jobs-1",
@@ -158,13 +256,20 @@
     "href": "KMCU.html#line-plot-bar-plot-scatter-plot",
     "title": "데이터시각화",
     "section": "Line plot, bar plot, scatter plot",
-    "text": "Line plot, bar plot, scatter plot"
+    "text": "Line plot, bar plot, scatter plot\n\n02fig14_graphicstypes.jpg"
   },
   {
     "objectID": "KMCU.html#chart-types-for-accurate-comparisons",
     "href": "KMCU.html#chart-types-for-accurate-comparisons",
     "title": "데이터시각화",
     "section": "Chart Types for Accurate Comparisons",
-    "text": "Chart Types for Accurate Comparisons"
+    "text": "Chart Types for Accurate Comparisons\n\n06fig12_clevelandtasks_re.jpg"
+  },
+  {
+    "objectID": "KMCU.html#chart-types-for-accurate-comparisons-1",
+    "href": "KMCU.html#chart-types-for-accurate-comparisons-1",
+    "title": "데이터시각화",
+    "section": "Chart Types for Accurate Comparisons",
+    "text": "Chart Types for Accurate Comparisons\n\n\n06fig13_clevelandtasks2.jpg"
   }
 ]

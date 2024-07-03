@@ -32,7 +32,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -347,10 +367,95 @@
 </div>
 
 </section>
+<section>
+<section id="why" class="title-slide slide level1 center">
+<h1>Why?</h1>
+
+</section>
 <section id="rose-diagram" class="slide level2">
 <h2>Rose Diagram</h2>
 
 <img data-src="https://historyofinformation.com/images/3815a%20Large.jpg" class="r-stretch"></section>
+<section id="rose-diagram-1" class="slide level2">
+<h2>Rose Diagram</h2>
+<p>ref: <a href="https://www.hankyung.com/article/202403229665i" class="uri">https://www.hankyung.com/article/202403229665i</a></p>
+<blockquote>
+<p>… 다음은, 백의의 천사로 알려진 나이팅게일(Florence Nightingale, 1820–1910)이다. 그녀는 간호사로서 뿐 아니라 정보 디자이너로서 주목받을 만한 업적을 남겼다. 나이팅게일은 크림전쟁 현장에서 장병들의 위생 문제가 심각함을 깨닫고 이를 개선하기 위한 지원을 여왕에게 촉구했다. 정성스럽게 800페이지에 달하는 통계 자료를 제작해 처후 개선을 위한 설득을 시도했으나 실패했다.</p>
+</blockquote>
+<blockquote>
+<p>이후 설득을 위해 다시 시도한 방법이 그림으로 그 자료를 압축하는 것이었다. 그녀는 중첩 막대 그래프와 원 그래프를 합한 ’폴라그래프’를 만들었다. 도표의 파란 영역이 전염병 사망자, 빨간 영역이 전투 사망자, 검정 부분이 기타 사망자인데, 이를 보면 단번에 전쟁에서 위생이 얼마나 중요한지 알 수 있다. 이 도표 덕분에 지원이 시작되었고, 42%에 달아던 사망률은 2%대로 감소하게 된다. 나이팅게일은 영국 병사들이 헛되게 죽어가는 것을 간절히 막기 원했고, 이는 전쟁에서 이기는 방법을 강렬하게 알기 원했던 여왕의 마음을 움직였다.</p>
+</blockquote>
+</section>
+<section id="john-snow" class="slide level2">
+<h2>John Snow</h2>
+<p><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1280px-Snow-cholera-map-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1280px-Snow-cholera-map-1.jpg"></a></p>
+</section>
+<section id="john-snow-1" class="slide level2">
+<h2>John Snow</h2>
+<p>ref: <a href="https://www.erc.re.kr/webzine/vol33/sub24.jsp" class="uri">https://www.erc.re.kr/webzine/vol33/sub24.jsp</a></p>
+<blockquote>
+<p>… 스노는 첫 번째 줄에 나와 있는 사망자의 주소를 지도에서 찾았다. 그 주소 위에 검은 사각형을 표시했다. 이어서 두 번째 줄에 나와 있는 감염자의 주소를 찾고 검은색 사각형을 표시했다. 데이터에 나와 있는 순서대로 한 줄씩 한 줄씩 지도에 위치를 표시해 나갔다. 그중에는 한 가족으로 보이는 숫자도 있었다. 2명 이상의 사망자가 있는 주소에는 그 수만큼의 검정 사각형을 층으로 표시했다. 그 방식으로 데이터 전체를 지도에 표시했다. 스노는 사각형이 표시된 지도를 자세히 들여다보았다. 표시된 검은 사각형은 특정 지역을 중심으로 몰려 있었다. 해당 지역은 지도 중심부에 있는 ’브로드 가(Broad Street)’였고, 그 중앙에 ’공용 펌프(Pump)’가 있었다. 공용 펌프는 시내 곳곳에 있지만, 사망자가 표시된 검은 사각형은 이 펌프를 중심으로 퍼져 있었다. “그래! 바로 이거야. 이곳이 콜레라가 발생된 최초 지역이야. 이 물이 오염되었을 거야. 이 물을 길어다 마신 사람들에게 복통과 설사가 일어난 거야. 틀림없어!” 스노는 지도에 표시한 사각형과 펌프를 살펴보며 콜레라가 발생된 최초 지역이 이 곳임을 확신했다. …</p>
+</blockquote>
+</section>
+<section id="john-snow-2" class="slide level2">
+<h2>John Snow</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/lNjrAXGRda4?si=hKdz7MfS_jib-4r4" width="1600" height="550" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="gapminder" class="slide level2">
+<h2>Gapminder</h2>
+
+<img data-src="./figs/10fig55_rosling.jpg" class="r-stretch"></section>
+<section id="gapminder-1" class="slide level2">
+<h2>Gapminder</h2>
+<ul>
+<li><strong>Gapminder Foundation</strong>: A Swedish non-profit organization.</li>
+<li><strong>Mission</strong>: To visualize global data on population, economy, environment, and more to make it easily understandable.</li>
+<li><strong>Trendalyzer Software</strong>: Initially developed by Gapminder to create the famous animated bubble graphs.
+<ul>
+<li><strong>Google Acquisition</strong>: In March 2006, Google acquired Trendalyzer, recognizing its innovative approach to data visualization.</li>
+<li><strong>Team Integration</strong>: Gapminder’s development team officially joined Google in April 2007, further enhancing Google’s data visualization capabilities.</li>
+</ul></li>
+</ul>
+</section>
+<section id="gapminder-2" class="slide level2">
+<h2>Gapminder</h2>
+<iframe data-external="1" src="https://www.youtube.com/embed/hVimVzgtD6w?si=Crq7LZ8cRuCvRTbD" width="1600" height="550" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</section>
+<section id="the-rational-optimist" class="slide level2">
+<h2>The Rational Optimist</h2>
+<p>ref: <span class="citation" data-cites="cairo2012functional">Cairo (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span>, <span class="citation" data-cites="ridley2012rational">Ridley (<a href="#/references" role="doc-biblioref" onclick="">2012</a>)</span></p>
+<h3 id="population-issue">Population Issue</h3>
+<ul>
+<li><p><strong>Claim 1</strong>: Poor countries are having too many children, leading to an increase in the world population which will reach 9 billion in 20 years.</p></li>
+<li><p><strong>Claim 2</strong>: Wealthy countries are having too few children, resulting in aging population problems.</p></li>
+<li><p><strong>Ridley’s Message</strong>: Both claims are incorrect. Birth rates in poor countries are steadily declining, while birth rates in wealthy countries are rebounding. Eventually, birth rates in all countries will converge around 2.1, stabilizing the global population.</p></li>
+</ul>
+</section>
+<section id="the-rational-optimist-1" class="slide level2">
+<h2>The Rational Optimist</h2>
+
+<img data-src="./figs/01fig01_ridleypopulation.jpg" class="r-stretch"></section>
+<section id="the-rational-optimist-2" class="slide level2">
+<h2>The Rational Optimist</h2>
+
+<img data-src="./figs/01fig02_un_populationdata.jpg" class="r-stretch"></section>
+<section id="the-rational-optimist-3" class="slide level2">
+<h2>The Rational Optimist</h2>
+
+<img data-src="./figs/01fig04_spain_sweden.jpg" class="r-stretch"></section>
+<section id="the-rational-optimist-4" class="slide level2">
+<h2>The Rational Optimist</h2>
+
+<img data-src="./figs/01fig05_allcountries1.jpg" class="r-stretch"></section>
+<section id="the-rational-optimist-5" class="slide level2">
+<h2>The Rational Optimist</h2>
+<p><a href="./figs/01fig06_allcountries2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="./figs/01fig06_allcountries2.jpg"></a></p>
+</section></section>
+<section>
+<section id="how" class="title-slide slide level1 center">
+<h1>How?</h1>
+
+</section>
 <section id="engineer-vs.-designer" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
 <ul>
@@ -362,18 +467,20 @@
 </section>
 <section id="engineer-vs.-designer-1" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 에드워드 터프트 (1990): 예일대학교 정치통계학 명예교수 터프트, 정보디자인과 시각화 기법분야에서 가장 영향력있는 이론가로 손꼽힘.</p>
-<p><code>-</code> 터프티의 이론중 백미: 엄격한 미니멀리즘</p>
 <ul>
-<li>최소한의 잉크로 많은 정보를 전달할 수 있다면 그것이 바로 좋은 그래프이다.</li>
-<li>작은 지면 내에서 잉크를 최대한 적게 써서 짧은 시간 안에 많은 영감을 주어야 한다.</li>
+<li><p>Edward Tufte (1990): Yale University Professor Emeritus of Political Statistics, Tufte is considered one of the most influential theorists in the field of information design and visualization techniques.</p></li>
+<li><p>The highlight of Tufte’s theory: rigorous minimalism</p>
+<ul>
+<li>If a graph can convey a lot of information with minimal ink, then it is a good graph.</li>
+<li>It should provide maximum inspiration in a short time by using the least amount of ink on a small area of paper.</li>
+</ul></li>
+<li><p>Data-ink ratio: the amount of ink used to present the data / the total amount of ink used to print the graphic</p></li>
 </ul>
-<p><code>-</code> 데이터-잉크비: 데이터를 표현하는데 들아가는 잉크의 양 / 그래픽을 인쇄하는데 들어가는 잉크의 총량</p>
 </section>
 <section id="engineer-vs.-designer-2" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
 
-<img data-src="KMCU_files/figure-revealjs/1c60b162-21ee-4af4-aa7d-751f3fb8cf71-1-f1a743a5-c229-470e-bfe8-66600220a2ab.jpg" class="r-stretch quarto-figure-center"><p class="caption">03fig12_diamondsholmes.jpg</p></section>
+<img data-src="./figs/03fig12_diamondsholmes.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="engineer-vs.-designer-3" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
 <blockquote>
@@ -382,61 +489,473 @@
 </section>
 <section id="engineer-vs.-designer-4" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽</p>
 
-<img data-src="KMCU_files/figure-revealjs/bdc3b80c-b6b1-474b-9e97-cd28d219e325-1-4e570286-345f-4ad0-baf3-7a481832d9b4.jpg" class="r-stretch quarto-figure-center"><p class="caption">03fig15_datainkholmes.jpg</p></section>
+<img data-src="./figs/03fig15_datainkholmes.jpg" class="r-stretch"></section>
 <section id="engineer-vs.-designer-5" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽</p>
 
-<img data-src="KMCU_files/figure-revealjs/bff03a5d-0321-4e99-b33b-c45493dbe37a-1-3187600e-6e88-45f2-be24-52d96135d520.jpg" class="r-stretch quarto-figure-center"><p class="caption">03fig13_datainkbars.jpg</p></section>
+<img data-src="./figs/03fig13_datainkbars.jpg" class="r-stretch"></section>
 <section id="engineer-vs.-designer-6" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 별로인 그래프 (왼쪽) / 우수한 그래프 오른쪽</p>
 
-<img data-src="KMCU_files/figure-revealjs/871685bc-0325-4832-a5e3-8335ed7dee06-1-22c6fb95-bb3a-4996-8662-a92ffe23d912.jpg" class="r-stretch quarto-figure-center"><p class="caption">03fig14_datainkbars2.jpg</p></section>
+<img data-src="./figs/03fig14_datainkbars2.jpg" class="r-stretch"></section>
 <section id="engineer-vs.-designer-7" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 터프티의 결론</p>
+<p>Tufte’s Conclusion: Do not draw graphics like the ones below!</p>
 
-<img data-src="KMCU_files/figure-revealjs/a876c380-ee1b-4f71-a742-3f9d7ff7a436-1-583b4b15-ed08-4a35-a1c6-d1cb0a01d2ef.jpg" class="r-stretch quarto-figure-center"><p class="caption">04fig01_gamesandtoys.jpg</p></section>
+<img data-src="./figs/04fig01_gamesandtoys.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="engineer-vs.-designer-8" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><code>-</code> 제 생각: 글쎄…</p>
-<p><a href="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-10-06-fig1.jpeg?raw=true" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-10-06-fig1.jpeg?raw=true" title="그림1: <타임>에 수록된 나이젤홈즈의 작품"></a></p>
+<ul>
+<li>Is the chart on the left truly chartjunk?</li>
+<li>Research conducted by the University of Saskatchewan, Canada. <span class="citation" data-cites="bateman2010useful">(<a href="#/references" role="doc-biblioref" onclick="">Bateman et al. 2010</a>)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./figs/03fig15_datainkholmes.jpg" class="quarto-figure quarto-figure-center" height="400"></p>
+</figure>
+</div>
 </section>
 <section id="engineer-vs.-designer-9" class="slide level2">
 <h2>Engineer vs.&nbsp;Designer</h2>
-<p><a href="KMCU_files/figure-revealjs/c2d5cbea-dec7-4228-88df-5ac9d61407fc-1-08053127-0965-445b-95ab-33bb1930c8a4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="KMCU_files/figure-revealjs/c2d5cbea-dec7-4228-88df-5ac9d61407fc-1-08053127-0965-445b-95ab-33bb1930c8a4.jpg"></a></p>
+<p>The more the medical expenses, the more the bar bends. A chart by Nigel Holmes featured in the 1979 issue of <em>Time</em> magazine.</p>
+<p><a href="KMCU_files/figure-revealjs/c2d5cbea-dec7-4228-88df-5ac9d61407fc-1-08053127-0965-445b-95ab-33bb1930c8a4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="KMCU_files/figure-revealjs/c2d5cbea-dec7-4228-88df-5ac9d61407fc-1-08053127-0965-445b-95ab-33bb1930c8a4.jpg" class="quarto-figure quarto-figure-center"></a></p>
 </section>
-<section id="the-map-of-napoleons-russian-campaign" class="slide level2">
-<h2>The map of Napoleon’s Russian campaign</h2>
-<ul>
-<li>인류역사상 가장 훌륭한 시각화</li>
-</ul>
+<section id="engineer-vs.-designer-10" class="slide level2">
+<h2>Engineer vs.&nbsp;Designer</h2>
+<blockquote>
+<p>If you belong to the school of people who believe that charts should only present statistics in the most straightforward, plain way, with no other visual help to the reader, for example, than the bar of the bar chart, the line of the fever graph, the circle of the pie chart, or the rules of the table, then move on to another part of the book. As long as the artist understands that the primary function is to convey statistics and respects that duty, then you can have fun (or be serious) with the image; that is, the form in which those statistics appear. <span class="citation" data-cites="zelterman1986designer">(<a href="#/references" role="doc-biblioref" onclick="">Zelterman 1986</a>)</span></p>
+</blockquote>
+<blockquote>
+<p>Humor is a great weapon in your visual arsenal. As long as it is not malicious, making people laugh with you will usually help them remember your image and therefore the point of the chart. Even a smile will encourage a reader to look into the statistics if he or she might not have thought of reading in a less-embellished chart.</p>
+</blockquote>
+</section>
+<section id="napoleons-russian-campaign" class="slide level2">
+<h2>Napoleon’s Russian campaign</h2>
+<p><em>The greatest visualization in human history</em></p>
 
 <img data-src="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" class="r-stretch"></section>
-<section id="the-map-of-napoleons-russian-campaign-1" class="slide level2">
-<h2>The map of Napoleon’s Russian campaign</h2>
-<p><code>-</code> 터프티의 평</p>
+<section id="napoleons-russian-campaign-1" class="slide level2">
+<h2>Napoleon’s Russian campaign</h2>
+<p><strong>Tufte’s Comments</strong></p>
 <ul>
-<li>지금까지 그려진 최고의 통계 그래픽일지도 모른다.</li>
-<li>여기에서는 군대의 크기, 2차원 평면상의 위치, 군대의 이동방향, 모스코바에서 퇴각하는 동안의 여러날짜, 온도 <span class="math inline">\(\to\)</span> 6차원의 변수</li>
-<li>백만번에 한번 이런 그림을 그릴수는 있겠지만 이러한 멋진 그래픽을 만드는 방법에 대한 원칙은 없다. <span class="math inline">\(\to\)</span> 미니멀리즘..</li>
+<li>“It may well be the best statistical graphic ever drawn.”</li>
+<li>“It presents six variables: the size of the army, its position on a two-dimensional plane, the direction of the army’s movement, dates during the retreat from Moscow, and temperature.”</li>
+<li>“You could create such a drawing once in a million times, but there are no principles for making such a beautiful graphic. It represents minimalism.”</li>
 </ul>
-<p><code>-</code> 왜 우수한 그래프일까?</p>
+<p><strong>Why is it an excellent graph?</strong></p>
 <ul>
-<li>자료를 파악하는 기법은 최근까지도 산점도, 막대그래프, 라인플랏에 의존</li>
-<li>이러한 플랏의 단점은 고차원의 자료를 분석하기 어렵다는 것임</li>
-<li>미나드는 여러그림을 그리는 방법 대신에 한 그림에서 패널을 늘리는 방법을 선택함.</li>
+<li>Until recently, techniques for understanding data have relied heavily on scatter plots, bar graphs, and line plots.</li>
+<li>The drawback of these plots is their difficulty in analyzing high-dimensional data. Instead of drawing multiple plots, Minard chose to increase the number of panels in a single illustration.</li>
 </ul>
 </section>
-<section id="c.-미나드처럼-그리는게-왜-어려운가" class="slide level2 scrollable">
-<h2>C. 미나드처럼 그리는게 왜 어려운가?</h2>
-<p><code>-</code> 몸무게, 키, 성별, 국적</p>
-<p><code>-</code> 미나드의 접근방법</p>
-<div id="7f589e7e-6915-40c6-b4ed-adf674f99177" class="cell" data-execution_count="20">
-<div class="cell-output cell-output-display" data-execution_count="20">
+<section id="high-dimensional-visualization" class="slide level2">
+<h2>High-dimensional visualization</h2>
+<ul>
+<li>회사직원들의 키와 몸무게를 조사하고 싶음.</li>
+<li>조사한 자료는 아래와 같음</li>
+</ul>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Data1</a></li><li><a href="#tabset-1-2">Data2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<p><em>남직원의 키와 몸무게</em></p>
+<div id="1b97283b-a6fc-4a87-b893-ac74774a7645" class="cell" data-tags="[]" data-execution_count="120">
+<div class="cell-output cell-output-display" data-execution_count="120">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">w</th>
+<th data-quarto-table-cell-role="th">h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>72.788217</td>
+<td>183.486773</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>66.606430</td>
+<td>173.599877</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>69.806324</td>
+<td>173.237903</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>67.449439</td>
+<td>173.223805</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>70.463183</td>
+<td>174.931946</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">995</td>
+<td>72.850877</td>
+<td>177.201090</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">996</td>
+<td>59.093632</td>
+<td>174.697872</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">997</td>
+<td>67.027289</td>
+<td>176.084689</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">998</td>
+<td>62.946371</td>
+<td>171.307062</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">999</td>
+<td>68.436299</td>
+<td>177.794044</td>
+</tr>
+</tbody>
+</table>
+
+<p>1000 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2">
+<p><em>여직원의 키와 몸무게</em></p>
+<div id="d2ecd0d2-056d-407f-b211-6d795d310f80" class="cell" data-tags="[]" data-execution_count="66">
+<div class="cell-output cell-output-display" data-execution_count="66">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">w</th>
+<th data-quarto-table-cell-role="th">h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>50.832743</td>
+<td>157.144482</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>49.767618</td>
+<td>160.784478</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>47.930381</td>
+<td>159.044675</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>49.200626</td>
+<td>157.992591</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>51.045006</td>
+<td>163.078925</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">495</td>
+<td>50.287127</td>
+<td>162.598885</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">496</td>
+<td>50.463208</td>
+<td>159.185937</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">497</td>
+<td>53.313993</td>
+<td>165.979300</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">498</td>
+<td>49.372940</td>
+<td>157.569320</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">499</td>
+<td>46.691077</td>
+<td>156.191474</td>
+</tr>
+</tbody>
+</table>
+
+<p>500 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="high-dimensional-visualization-1" class="slide level2">
+<h2>High-dimensional visualization</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Fig1: 규빈의 시각화 (1)</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<div id="1e55fbb8-711e-48af-a684-60fd54f2f7ca" class="cell" data-tags="[]" data-execution_count="128">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="KMCU_files/figure-revealjs/cell-4-output-1.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="high-dimensional-visualization-2" class="slide level2">
+<h2>High-dimensional visualization</h2>
+<ul>
+<li>그런데 사실 이 회사에 외국인도 있었음</li>
+</ul>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Data1</a></li><li><a href="#tabset-3-2">Data2</a></li><li><a href="#tabset-3-3">Data3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<p><em>남직원의 키와 몸무게</em></p>
+<div id="6935631b-43d7-4238-b216-93ab51e29b23" class="cell" data-tags="[]" data-execution_count="120">
+<div class="cell-output cell-output-display" data-execution_count="120">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">w</th>
+<th data-quarto-table-cell-role="th">h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>72.788217</td>
+<td>183.486773</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>66.606430</td>
+<td>173.599877</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>69.806324</td>
+<td>173.237903</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>67.449439</td>
+<td>173.223805</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>70.463183</td>
+<td>174.931946</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">995</td>
+<td>72.850877</td>
+<td>177.201090</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">996</td>
+<td>59.093632</td>
+<td>174.697872</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">997</td>
+<td>67.027289</td>
+<td>176.084689</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">998</td>
+<td>62.946371</td>
+<td>171.307062</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">999</td>
+<td>68.436299</td>
+<td>177.794044</td>
+</tr>
+</tbody>
+</table>
+
+<p>1000 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-2">
+<p><em>여직원의 키와 몸무게</em></p>
+<div id="645f8f60-edec-4f2a-a0a1-fbe259453366" class="cell" data-tags="[]" data-execution_count="66">
+<div class="cell-output cell-output-display" data-execution_count="66">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+
+<table class="dataframe" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header" style="text-align: right;">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">w</th>
+<th data-quarto-table-cell-role="th">h</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>50.832743</td>
+<td>157.144482</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>49.767618</td>
+<td>160.784478</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>47.930381</td>
+<td>159.044675</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>49.200626</td>
+<td>157.992591</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>51.045006</td>
+<td>163.078925</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">...</td>
+<td>...</td>
+<td>...</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">495</td>
+<td>50.287127</td>
+<td>162.598885</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">496</td>
+<td>50.463208</td>
+<td>159.185937</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">497</td>
+<td>53.313993</td>
+<td>165.979300</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">498</td>
+<td>49.372940</td>
+<td>157.569320</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">499</td>
+<td>46.691077</td>
+<td>156.191474</td>
+</tr>
+</tbody>
+</table>
+
+<p>500 rows × 2 columns</p>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-3-3">
+<p><em>외국인직원의 성별,키,몸무게</em></p>
+<div id="83ef8831-30b3-42bd-a446-1ab0941895a9" class="cell">
+<div class="cell-output cell-output-display" data-execution_count="67">
 <div>
 <style scoped="">
     .dataframe tbody tr th:only-of-type {
@@ -459,260 +978,432 @@
 <th data-quarto-table-cell-role="th">w</th>
 <th data-quarto-table-cell-role="th">h</th>
 <th data-quarto-table-cell-role="th">g</th>
-<th data-quarto-table-cell-role="th">g2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">0</td>
-<td>72.788217</td>
-<td>183.486773</td>
+<td>94.033546</td>
+<td>195.297789</td>
 <td>m</td>
-<td>korea</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">1</td>
-<td>66.606430</td>
-<td>173.599877</td>
+<td>84.139393</td>
+<td>189.289647</td>
 <td>m</td>
-<td>korea</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">2</td>
-<td>69.806324</td>
-<td>173.237903</td>
-<td>m</td>
-<td>korea</td>
+<td>75.860293</td>
+<td>185.265391</td>
+<td>f</td>
 </tr>
 <tr class="even">
 <td data-quarto-table-cell-role="th">3</td>
-<td>67.449439</td>
-<td>173.223805</td>
+<td>87.412981</td>
+<td>189.631678</td>
 <td>m</td>
-<td>korea</td>
 </tr>
 <tr class="odd">
 <td data-quarto-table-cell-role="th">4</td>
-<td>70.463183</td>
-<td>174.931946</td>
+<td>84.935675</td>
+<td>187.196177</td>
 <td>m</td>
-<td>korea</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
+<td data-quarto-table-cell-role="th">5</td>
+<td>79.383565</td>
+<td>195.972143</td>
+<td>m</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">1525</td>
+<td data-quarto-table-cell-role="th">6</td>
+<td>83.870445</td>
+<td>186.682876</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>94.606364</td>
+<td>202.132426</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>83.576451</td>
+<td>198.008932</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>85.888925</td>
+<td>188.213601</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">10</td>
+<td>80.909245</td>
+<td>191.467425</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">11</td>
+<td>79.938402</td>
+<td>188.597317</td>
+<td>f</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">12</td>
+<td>80.735325</td>
+<td>184.443374</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">13</td>
+<td>84.700045</td>
+<td>184.357888</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">14</td>
+<td>86.403761</td>
+<td>185.900475</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">15</td>
+<td>92.540804</td>
+<td>192.452534</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">16</td>
+<td>82.362949</td>
+<td>185.254624</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">17</td>
+<td>83.796716</td>
+<td>187.025413</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">18</td>
+<td>89.775136</td>
+<td>196.291352</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">19</td>
+<td>84.750788</td>
+<td>191.192807</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">20</td>
+<td>77.563458</td>
+<td>177.258245</td>
+<td>f</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">21</td>
+<td>80.585201</td>
+<td>181.307279</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">22</td>
+<td>88.780593</td>
+<td>193.561134</td>
+<td>m</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">23</td>
+<td>90.059989</td>
+<td>190.277243</td>
+<td>m</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">24</td>
+<td>67.110313</td>
+<td>177.821156</td>
+<td>f</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">25</td>
 <td>78.154632</td>
 <td>188.324350</td>
 <td>m</td>
-<td>foreign</td>
 </tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1526</td>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">26</td>
 <td>74.754308</td>
 <td>183.017979</td>
 <td>f</td>
-<td>foreign</td>
 </tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1527</td>
+<tr class="even">
+<td data-quarto-table-cell-role="th">27</td>
 <td>91.196208</td>
 <td>190.100456</td>
 <td>m</td>
-<td>foreign</td>
 </tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1528</td>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">28</td>
 <td>87.770394</td>
 <td>187.987255</td>
 <td>m</td>
-<td>foreign</td>
 </tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1529</td>
+<tr class="even">
+<td data-quarto-table-cell-role="th">29</td>
 <td>88.021995</td>
 <td>193.456798</td>
 <td>m</td>
-<td>foreign</td>
 </tr>
 </tbody>
 </table>
 
-<p>1530 rows × 4 columns</p>
 </div>
 </div>
 </div>
-
-<img data-src="KMCU_files/figure-revealjs/cell-4-output-1.png" class="r-stretch"><p><code>-</code> 어려운 점:</p>
-<ol type="1">
-<li>센스부족: 센스가 없어서 hue/style을 이용하여 그룹을 구분할 생각을 못함</li>
-<li>개념부족: 타이디데이터 (=tidy dataframe, long form dataframe) 형태로 데이터를 정리할 생각을 못함</li>
-<li>코딩못함: 타이디데이터로 데이터를 변형하는 코드를 모름</li>
-</ol>
-<p><code>-</code> 해결하는 방법:</p>
-<ol type="1">
-<li>센스부족: 훌륭한 시각화를 많이 보면 해결할 수 있음.</li>
-<li>개념부족: tidydata에 대한 개념을 배우면 해결할 수 있음.</li>
-<li>코딩못함: 코딩공부열심히 (시각화 코드가 중요한게 아니고, pandas를 엄청 잘해야함)</li>
-</ol>
+</div>
+</div>
+</div>
 </section>
+<section id="high-dimensional-visualization-3" class="slide level2">
+<h2>High-dimensional visualization</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Fig1 – 규빈의 생각</a></li><li><a href="#tabset-4-2">Fig2 – 미나드의 생각</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
+<div id="0534c6d7-d2de-4fd6-950d-841879460055" class="cell" data-tags="[]" data-execution_count="129">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="KMCU_files/figure-revealjs/cell-8-output-1.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-2">
+<div id="278fb3fc-2759-4cb7-98fc-b03a48b9d9a1" class="cell" data-tags="[]" data-execution_count="117">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="KMCU_files/figure-revealjs/cell-9-output-1.png"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="high-dimensional-visualization-4" class="slide level2">
+<h2>High-dimensional visualization</h2>
+<p>Visualizing complex data beautifully like Minard:</p>
+<ul>
+<li>Use multiple aesthetic elements in a single image.</li>
+<li>We can detect various differences in hue, brightness, and form. Utilizing these as visualization tools can be very effective.</li>
+</ul>
+</section>
+<section id="gestalt-principles" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p>You can distinguish differences in brightness and hue.</p>
+
+<img data-src="./figs/06fig01_whereisthewolf.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="gestalt-principles-1" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p>You can distinguish not only differences in color and shade but also in size and orientation.</p>
+
+<img data-src="./figs/06fig04_preattentive.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-2" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p>You can sense proximity.</p>
+
+<img data-src="./figs/06fig05_proximity.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-3" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig06_proximity2.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-4" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p>An entity enclosed within a clear and distinct boundary is perceived as a single group.</p>
+
+<img data-src="./figs/06fig10_closure1.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-5" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p><a href="./figs/06fig11_closure2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="./figs/06fig11_closure2.jpg"></a></p>
+</section>
+<section id="gestalt-principles-6" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig03_factories.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-7" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig07_similarity.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-8" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig08_connectedness.jpg" class="r-stretch"></section>
+<section id="gestalt-principles-9" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig13_clevelandtasks2.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="gestalt-principles-10" class="slide level2">
+<h2>Gestalt Principles</h2>
+<p><a href="./figs/06fig12_clevelandtasks_re.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="./figs/06fig12_clevelandtasks_re.jpg"></a></p>
+</section>
+<section id="gestalt-principles-11" class="slide level2">
+<h2>Gestalt Principles</h2>
+
+<img data-src="./figs/06fig14_clevelandtask3_re.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="presentations-vs-explorations" class="slide level2">
 <h2>Presentations vs Explorations</h2>
 
 <img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG1.png?raw=true" class="r-stretch"></section>
 <section id="presentations-vs-explorations-1" class="slide level2">
 <h2>Presentations vs Explorations</h2>
-<p><a href="https://images.squarespace-cdn.com/content/v1/51d3c4b3e4b0276725be466e/1392907528268-FOT48YUZCUHNWA1HGJ34/Prints.jpg?format=2500w" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="https://images.squarespace-cdn.com/content/v1/51d3c4b3e4b0276725be466e/1392907528268-FOT48YUZCUHNWA1HGJ34/Prints.jpg?format=2500w"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="KMCU_files/figure-revealjs/1718e894-4572-4f0f-99bf-d06586a2c123-1-2dd27f56-b69e-48ab-8146-12509faba390.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" data-description="" title="08fig11_inequalityfinal.jpg"><img data-src="KMCU_files/figure-revealjs/1718e894-4572-4f0f-99bf-d06586a2c123-1-2dd27f56-b69e-48ab-8146-12509faba390.jpg" alt="08fig11_inequalityfinal.jpg"></a></p>
+<figcaption>08fig11_inequalityfinal.jpg</figcaption>
+</figure>
+</div>
 </section>
 <section id="presentations-vs-explorations-2" class="slide level2">
 <h2>Presentations vs Explorations</h2>
-<p><a href="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG3.png?raw=true" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG3.png?raw=true"></a></p>
-</section>
-<section id="the-rational-optimist-how-prosperity-evolves" class="slide level2">
-<h2>The Rational Optimist: How Prosperity Evolves</h2>
-<p><a href="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG4.png?raw=true" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG4.png?raw=true"></a></p>
-</section>
-<section id="the-rational-optimist-how-prosperity-evolves-1" class="slide level2">
-<h2>The Rational Optimist: How Prosperity Evolves</h2>
-<p><a href="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG5.png?raw=true" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG5.png?raw=true"></a></p>
-</section>
-<section id="example-of-visualization-interpretation-of-correlation" class="slide level2">
-<h2>Example of Visualization: Interpretation of Correlation</h2>
-<p><a href="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG6.png?raw=true" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="https://github.com/guebin/2021DV/blob/master/_notebooks/2021-11-16-FIG6.png?raw=true"></a></p>
-</section>
-<section id="example-of-visualization-military-power-of-south-american-countries" class="slide level2">
-<h2>Example of Visualization: Military Power of South American Countries</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="KMCU_files/figure-revealjs/f823fe03-73de-4834-b9ac-5e3c7cedce60-1-634aa464-d5b5-4dd0-9bae-d6647e2c13c9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" data-description="" title="02fig01_defense_rev.jpg"><img data-src="KMCU_files/figure-revealjs/f823fe03-73de-4834-b9ac-5e3c7cedce60-1-634aa464-d5b5-4dd0-9bae-d6647e2c13c9.jpg" alt="02fig01_defense_rev.jpg"></a></p>
-<figcaption>02fig01_defense_rev.jpg</figcaption>
+<p><a href="KMCU_files/figure-revealjs/5d09f292-5ced-4a76-a98f-951d29dde9c7-1-9c43cc9f-2439-4405-94f9-3d723ac7ca93.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" data-description="" title="08fig08_drivingshifts.jpg"><img data-src="KMCU_files/figure-revealjs/5d09f292-5ced-4a76-a98f-951d29dde9c7-1-9c43cc9f-2439-4405-94f9-3d723ac7ca93.jpg" alt="08fig08_drivingshifts.jpg"></a></p>
+<figcaption>08fig08_drivingshifts.jpg</figcaption>
 </figure>
 </div>
 </section>
-<section id="example-of-visualization-military-power-of-south-american-countries-1" class="slide level2">
-<h2>Example of Visualization: Military Power of South American Countries</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/6c77be13-e2a2-411d-af9a-44f54c36a022-1-1b760319-b742-499d-95a1-719f19c4a0a2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" data-description="" title="02fig02_defensebars.jpg"><img data-src="KMCU_files/figure-revealjs/6c77be13-e2a2-411d-af9a-44f54c36a022-1-1b760319-b742-499d-95a1-719f19c4a0a2.jpg" alt="02fig02_defensebars.jpg"></a></p>
-<figcaption>02fig02_defensebars.jpg</figcaption>
-</figure>
-</div>
+<section id="presentations-vs-explorations-3" class="slide level2">
+<h2>Presentations vs Explorations</h2>
+<ul>
+<li>It is a work called “Literary Organism.” // Tree diagram + colors.</li>
+<li>Tree diagram: chapters, paragraphs, sentences, words.</li>
+<li>Colors: themes frequently appearing in the novel such as travel, music, party, etc.</li>
+</ul>
+<p><a href="./figs/10fig70_literaryorganism.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="./figs/10fig70_literaryorganism.jpg"></a></p>
+<ul>
+<li>The exploration method allows the reader to discover messages within the illustration on their own.</li>
+<li>For those who haven’t read the novel: this graphic provides an overview of the novel’s main themes.</li>
+<li>For those who have already read the novel: it allows for analysis and exploration. For example, it shows instances where parties and music frequently occur together.</li>
+</ul>
 </section>
-<section id="example-of-visualization-military-power-of-south-american-countries-2" class="slide level2">
-<h2>Example of Visualization: Military Power of South American Countries</h2>
-<p><a href="KMCU_files/figure-revealjs/bb6a88a3-b2b9-48bd-a64d-546d418733ff-1-638aa15e-6414-440f-8fcd-d9237513a1da.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="02fig03_defensebars2.jpg"><img data-src="KMCU_files/figure-revealjs/bb6a88a3-b2b9-48bd-a64d-546d418733ff-1-638aa15e-6414-440f-8fcd-d9237513a1da.jpg" alt="02fig03_defensebars2.jpg"></a>|</p>
-</section>
-<section id="example-of-visualization-military-power-of-south-american-countries-3" class="slide level2">
-<h2>Example of Visualization: Military Power of South American Countries</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/65502d55-505e-4d61-817b-cfb3108ec0b3-1-9776e5c7-309e-43e0-9ac1-35cbdaacefdf.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" data-description="" title="02fig04_defensebars3.jpg"><img data-src="KMCU_files/figure-revealjs/65502d55-505e-4d61-817b-cfb3108ec0b3-1-9776e5c7-309e-43e0-9ac1-35cbdaacefdf.jpg" alt="02fig04_defensebars3.jpg"></a></p>
-<figcaption>02fig04_defensebars3.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="military-power-of-south-american-countries" class="slide level2">
-<h2>Military Power of South American Countries</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="./figs/02fig05_defenseredesign.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" data-description="" title="02fig05_defenseredesign.jpg"><img data-src="./figs/02fig05_defenseredesign.jpg" alt="02fig05_defenseredesign.jpg"></a></p>
-<figcaption>02fig05_defenseredesign.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-military-power-of-south-american-countries-4" class="slide level2">
-<h2>Example of Visualization: Military Power of South American Countries</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/3e694e30-8c7c-4372-84b2-0109d88f3d9e-1-58237654-71a2-46e6-9c4a-8d08bbe80d3e.png" class="lightbox" data-gallery="quarto-lightbox-gallery-13" data-description="" title="image.png"><img data-src="KMCU_files/figure-revealjs/3e694e30-8c7c-4372-84b2-0109d88f3d9e-1-58237654-71a2-46e6-9c4a-8d08bbe80d3e.png" alt="image.png"></a></p>
-<figcaption>image.png</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-unemployment-rate-in-spain" class="slide level2">
-<h2>Example of visualization: Unemployment rate in Spain</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/2b6419b8-3b6e-45c1-99db-37ef639502a4-1-09b56fe2-a65f-4913-989d-d03cb3239c5e.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" data-description="" title="02fig06_unemployment1.jpg"><img data-src="KMCU_files/figure-revealjs/2b6419b8-3b6e-45c1-99db-37ef639502a4-1-09b56fe2-a65f-4913-989d-d03cb3239c5e.jpg" alt="02fig06_unemployment1.jpg"></a></p>
-<figcaption>02fig06_unemployment1.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-unemployment-rate-in-spain-1" class="slide level2">
-<h2>Example of visualization: Unemployment rate in Spain</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/9450e4c0-0e64-4757-bc80-6d82146add4a-1-9a28392a-5c03-4744-8092-a48dfaca2933.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" data-description="" title="02fig07_unemployment2.jpg"><img data-src="KMCU_files/figure-revealjs/9450e4c0-0e64-4757-bc80-6d82146add4a-1-9a28392a-5c03-4744-8092-a48dfaca2933.jpg" alt="02fig07_unemployment2.jpg"></a></p>
-<figcaption>02fig07_unemployment2.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-market-capitalization-of-banks" class="slide level2">
-<h2>Example of visualization: Market capitalization of banks</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/af5d1136-de8c-4b13-a55e-a7f2d3092680-1-a84098ae-c468-407d-aec1-9dc9e8d002c9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" data-description="" title="02fig08_bubbles1.jpg"><img data-src="KMCU_files/figure-revealjs/af5d1136-de8c-4b13-a55e-a7f2d3092680-1-a84098ae-c468-407d-aec1-9dc9e8d002c9.jpg" alt="02fig08_bubbles1.jpg"></a></p>
-<figcaption>02fig08_bubbles1.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-market-capitalization-of-banks-1" class="slide level2">
-<h2>Example of visualization: Market capitalization of banks</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/186529ab-0530-4b18-9abd-766d306d00ac-1-70d5faeb-829c-475e-9d9a-48b82598e356.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" data-description="" title="02fig09_bubbles2.jpg"><img data-src="KMCU_files/figure-revealjs/186529ab-0530-4b18-9abd-766d306d00ac-1-70d5faeb-829c-475e-9d9a-48b82598e356.jpg" alt="02fig09_bubbles2.jpg"></a></p>
-<figcaption>02fig09_bubbles2.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-market-capitalization-of-banks-2" class="slide level2">
-<h2>Example of visualization: Market capitalization of banks</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="KMCU_files/figure-revealjs/55e00ff5-3ba5-4e44-9e07-373d770158a2-1-942f6bb8-d847-4f58-947d-af1e19fa4de1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" data-description="" title="02fig10_bubbles3.jpg"><img data-src="KMCU_files/figure-revealjs/55e00ff5-3ba5-4e44-9e07-373d770158a2-1-942f6bb8-d847-4f58-947d-af1e19fa4de1.jpg" alt="02fig10_bubbles3.jpg"></a></p>
-<figcaption>02fig10_bubbles3.jpg</figcaption>
-</figure>
-</div>
-</section>
-<section id="example-of-visualization-market-capitalization-of-banks-3" class="slide level2">
-<h2>Example of visualization: Market capitalization of banks</h2>
+<section id="presentations-vs-explorations-4" class="slide level2">
+<h2>Presentations vs Explorations</h2>
 
-<img data-src="KMCU_files/figure-revealjs/ca9bc37a-404e-4118-b9e9-5682a44c217e-1-800ba52c-1cc9-413e-b614-2521c4c5d240.jpg" class="r-stretch quarto-figure-center"><p class="caption">02fig11_bubbles4.jpg</p></section>
-<section id="example-of-visualization-market-capitalization-of-banks-4" class="slide level2">
-<h2>Example of visualization: Market capitalization of banks</h2>
+<img data-src="./figs/10fig72_bookhighlighted.jpg" class="r-stretch"></section>
+<section id="presentations-vs-explorations-5" class="slide level2">
+<h2>Presentations vs Explorations</h2>
 
-<img data-src="KMCU_files/figure-revealjs/516e3172-ba55-43da-a87e-da61720573b9-1-a047d0e4-7e7c-4509-96a6-94fb930ed13b.jpg" class="r-stretch quarto-figure-center"><p class="caption">02fig12_bubbles5.jpg</p></section>
-<section id="bubble" class="slide level2">
-<h2>Bubble</h2>
+<img data-src="./figs/10fig73_bookhighlights.jpg" class="r-stretch"></section></section>
+<section>
+<section id="examples" class="title-slide slide level1 center">
+<h1>Examples</h1>
 
-<img data-src="KMCU_files/figure-revealjs/69c99eae-35ca-4948-8c2d-4ec89aa035c5-1-b335e7a4-75e8-4b38-ac68-9bc2bad2651a.jpg" class="r-stretch quarto-figure-center"><p class="caption">02fig13_newyork.jpg</p></section>
-<section id="example-of-visualization-visualization-of-steve-jobs" class="slide level2">
-<h2>Example of visualization: Visualization of Steve Jobs</h2>
+</section>
+<section id="military-power-of-brazil" class="slide level2">
+<h2>Military Power of BRAZIL</h2>
+<p><a href="./figs/02fig01_defense_rev.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img data-src="./figs/02fig01_defense_rev.jpg"></a></p>
+</section>
+<section id="military-power-of-brazil-1" class="slide level2">
+<h2>Military Power of BRAZIL</h2>
+<p><a href="./figs/02fig02_defensebars.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img data-src="./figs/02fig02_defensebars.jpg"></a></p>
+</section>
+<section id="military-power-of-brazil-2" class="slide level2">
+<h2>Military Power of BRAZIL</h2>
+<p><a href="KMCU_files/figure-revealjs/bb6a88a3-b2b9-48bd-a64d-546d418733ff-1-638aa15e-6414-440f-8fcd-d9237513a1da.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="02fig03_defensebars2.jpg"><img data-src="KMCU_files/figure-revealjs/bb6a88a3-b2b9-48bd-a64d-546d418733ff-1-638aa15e-6414-440f-8fcd-d9237513a1da.jpg" alt="02fig03_defensebars2.jpg"></a>|</p>
+<p>Brazil’s national defense is ranked first in all indicators. First, they have a large number of soldiers (left chart) and seem to invest heavily in their budget (middle chart). However, it seems the population is the hidden factor (right chart).</p>
+</section>
+<section id="military-power-of-brazil-3" class="slide level2">
+<h2>Military Power of BRAZIL</h2>
+<p><a href="./figs/02fig04_defensebars3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img data-src="./figs/02fig04_defensebars3.jpg"></a></p>
+</section>
+<section id="military-power-of-brazil-4" class="slide level2">
+<h2>Military Power of BRAZIL</h2>
+<p><a href="./figs/02fig05_defenseredesign.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img data-src="./figs/02fig05_defenseredesign.jpg"></a></p>
+</section>
+<section id="unemployment-rate-in-spain" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
 
-<img data-src="KMCU_files/figure-revealjs/dce58120-77f0-4270-b9af-0aa8bc8d837b-1-6e07ab77-1905-4b9d-a220-2de1958bcc7b.jpg" class="r-stretch quarto-figure-center"><p class="caption">04fig05_3dbars.jpg</p></section>
-<section id="example-of-visualization-visualization-of-steve-jobs-1" class="slide level2">
-<h2>Example of visualization: Visualization of Steve Jobs</h2>
+<img data-src="./figs/02fig06_unemployment1.jpg" class="r-stretch"></section>
+<section id="unemployment-rate-in-spain-1" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
+
+<img data-src="./figs/02fig07_unemployment2.jpg" class="r-stretch"></section>
+<section id="unemployment-rate-in-spain-2" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
+<p><a href="./figs/02fig08_bubbles1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img data-src="./figs/02fig08_bubbles1.jpg"></a></p>
+</section>
+<section id="unemployment-rate-in-spain-3" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
+
+<img data-src="./figs/02fig09_bubbles2.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="unemployment-rate-in-spain-4" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
+
+<img data-src="./figs/02fig10_bubbles3.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="unemployment-rate-in-spain-5" class="slide level2">
+<h2>Unemployment rate in Spain</h2>
+<p><a href="./figs/02fig12_bubbles5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img data-src="./figs/02fig12_bubbles5.jpg"></a></p>
+</section>
+<section id="visualization-of-steve-jobs" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+<p>Basic knowledge: 3D charts distort numbers.</p>
+<p><img data-src="./figs/04fig05_3dbars.jpg" height="400"></p>
+</section>
+<section id="visualization-of-steve-jobs-1" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+<p>ref: <a href="https://paragraft.wordpress.com/2008/06/03/the-chart-junk-of-steve-jobs/" class="uri">https://paragraft.wordpress.com/2008/06/03/the-chart-junk-of-steve-jobs/</a></p>
 
 <img data-src="https://paragraft.files.wordpress.com/2008/06/dsc_0143.jpg" class="r-stretch"></section>
+<section id="visualization-of-steve-jobs-2" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+
+<img data-src="https://paragraft.wordpress.com/wp-content/uploads/2008/06/dsc_5296.jpg?w=500" class="r-stretch"></section>
+<section id="visualization-of-steve-jobs-3" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+
+<img data-src="https://paragraft.wordpress.com/wp-content/uploads/2008/06/dsc_5295.jpg?w=500" class="r-stretch"></section>
+<section id="visualization-of-steve-jobs-4" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+
+<img data-src="https://paragraft.wordpress.com/wp-content/uploads/2008/06/dsc_0134.jpg?w=500" class="r-stretch"></section>
+<section id="visualization-of-steve-jobs-5" class="slide level2">
+<h2>Visualization of Steve Jobs</h2>
+
+<img data-src="https://paragraft.wordpress.com/wp-content/uploads/2008/06/apple-beat-event-23.jpg?w=500" class="r-stretch"></section>
 <section id="line-plot-bar-plot-scatter-plot" class="slide level2">
 <h2>Line plot, bar plot, scatter plot</h2>
 
-<img data-src="KMCU_files/figure-revealjs/bb70f0d1-3ccf-4c8c-8637-85582b52f66b-1-560d17ed-1006-45b6-8879-d7356a3ff7ad.jpg" class="r-stretch quarto-figure-center"><p class="caption">02fig14_graphicstypes.jpg</p></section>
-<section id="chart-types-for-accurate-comparisons" class="slide level2">
-<h2>Chart Types for Accurate Comparisons</h2>
+<img data-src="KMCU_files/figure-revealjs/bb70f0d1-3ccf-4c8c-8637-85582b52f66b-1-560d17ed-1006-45b6-8879-d7356a3ff7ad.jpg" class="r-stretch quarto-figure-center"><p class="caption">02fig14_graphicstypes.jpg</p></section></section>
+<section id="references" class="title-slide slide level1 smaller scrollable">
+<h1>References</h1>
 
-<img data-src="KMCU_files/figure-revealjs/7f323a08-095b-471f-bcf8-59d4231fd3ce-1-75ab190c-b16b-4c6c-b4c4-56917537ca03.jpg" class="r-stretch quarto-figure-center"><p class="caption">06fig12_clevelandtasks_re.jpg</p></section>
-<section id="chart-types-for-accurate-comparisons-1" class="slide level2">
-<h2>Chart Types for Accurate Comparisons</h2>
+<div class="footer footer-default">
 
-
-<img data-src="KMCU_files/figure-revealjs/0ebb3e30-528e-4365-ac4c-105d22607bdf-1-2fb155b0-923f-4ce1-a7eb-f2788bfaf3d5.jpg" class="r-stretch quarto-figure-center"><p class="caption">06fig13_clevelandtasks2.jpg</p><div class="footer footer-default">
-
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bateman2010useful" class="csl-entry" role="listitem">
+Bateman, Scott, Regan L Mandryk, Carl Gutwin, Aaron Genest, David McDine, and Christopher Brooks. 2010. <span>“Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts.”</span> In <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>, 2573–82.
+</div>
+<div id="ref-cairo2012functional" class="csl-entry" role="listitem">
+Cairo, Alberto. 2012. <em>The Functional Art: An Introduction to Information Graphics and Visualization</em>. New Riders.
+</div>
+<div id="ref-ridley2012rational" class="csl-entry" role="listitem">
+Ridley, Matt. 2012. <span>“The Rational Optimist: How Prosperity Evolves.”</span> <em>Brock Education Journal</em> 21 (2).
+</div>
+<div id="ref-zelterman1986designer" class="csl-entry" role="listitem">
+Zelterman, Daniel. 1986. <span>“Designer’s Guide to Creating Charts and Diagrams.”</span> JSTOR.
+</div>
 </div>
 </section>
     </div>
@@ -1081,7 +1772,7 @@
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});</script>
+    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom"});</script>
     
 
 </body></html>
